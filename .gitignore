@@ -1,0 +1,32 @@
+build/
+bin/
+API-Reports/
+out/
+.gradle/
+.settings/
+.classpath
+.project
+.idea
+*.iml
+**/Extent-Report-config.xml
+.sonar/
+
+#Eclipse files
+.project
+.classpath
+.settings
+test-output/
+bin/
+target/
+
+#Java and Maven
+*.class
+*.jar
+target
+lib
+
+#TestNG
+*.log
+
+screenshots/
+server_side_test_package.zip
