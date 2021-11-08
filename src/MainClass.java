@@ -1,9 +1,13 @@
 public class MainClass {
 
     public static void main(String[] args) {
+        loadData();
         String rawData = getData();
         int data = parseData(rawData);
         printData(data);
+    }
+
+    private static void loadData() {
     }
 
     private static String getData() {
