@@ -7,7 +7,7 @@ public class MainClass {
     }
 
     private static String getData() {
-        return null;
+        return "1";
     }
 
     private static int parseData(String data) {
