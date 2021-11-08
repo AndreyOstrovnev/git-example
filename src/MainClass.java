@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MainClass {
 
     public static void main(String[] args) {
@@ -7,7 +9,8 @@ public class MainClass {
     }
 
     private static String getData() {
-        return null;
+        Scanner in = new Scanner(System.in);
+        return in.nextLine();
     }
 
     private static int parseData(String data) {
